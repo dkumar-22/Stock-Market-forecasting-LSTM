@@ -14,6 +14,5 @@ It works on the Dataset as shown, it is a .csv file that contains 1258 records e
 We will be predicting the Stock Prices using the close price on a day using LSTMs.
 With the help of LSTMs we train the model such that it studies the close prices for 100 days, with the help of the trends observed the model predicts the close price for the 101th day.
 
-<br/><br/>
-
+<br/>
 We make predictions for the close prices of the stock. We divide the data into training set and test set. With 65% of the data used for training while the rest is used for predictions. We then calculate various error metric to see how our model performs.
